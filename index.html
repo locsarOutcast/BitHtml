@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit-Videojuegos</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="headerStatic">
+        <div class="container logo-nav-container">
+            <a href="https://bit.institute/E?A=Curso-Desarrollo-Programacion-Videojuegos" class="Logo" target="_black"> <img src="img/Bit.png" alt="imagenBit"></a>
+            <span class="menu-icon"> ver menu</span>
+            <nav class="navigation">
+                <ul>
+                <li> <a href="#">home</a></li>
+              
+                </ul>
+            </nav>            
+        </div>
+    </header>
+     <main class="main">
+
+        <div class="container">
+            <h1>
+                Videojuegos Bit
+            </h1> 
+            <div class="accordion">
+                <div class="contentbox">
+                    <div class="label">
+                      Mas info del curso
+                    </div>
+                    <div class="content">
+                        <p>
+                            <a href="https://bit.institute/E?A=Curso-Desarrollo-Programacion-Videojuegos" target="_blanck">Curso de Diseño y Desarrollo de Videojuegos con Unity: click para mas Info</a>
+                        </p>
+                    </div>
+                </div> 
+              </div>
+              <div class="accordion">
+                <div class="contentbox">
+                    <div class="label">
+                      Que hace un desarollador de Videojuegos
+                    </div>
+                    <div class="content">
+                        <p>
+                            Un desarrollador de videojuegos se encarga de realizar las actividades de programación necesarias para la conceptualización, prototipado y prueba de un videojuego. Para lograrlo utiliza motores, librerías, recursos y lenguajes de programación específicos en diferentes plataformas.
+                        </p>
+                    </div>
+                </div> 
+              </div>
+              <div class="accordion">
+                <div class="contentbox">
+                    <div class="label">
+                      Info random
+                    </div>
+                    <div class="content">
+                        <h1>Gwen</h1>
+                        <p>
+                            
+                            En el reino olvidado de Camavor, existió una vez un pueblo alejado del trono. Fue aquí, en las colonias rurales, donde una humilde costurera fabricó a su amada muñeca, Gwen.
+
+                            Lo poco que Gwen recuerda de su pasado, lo recuerda con amor. La costurera y la muñeca pasaban sus días confeccionando, Gwen con las tijeras en sus manos inmóviles mientras su creadora
+                            cosía cerca de ella con hilo y aguja. Por las noches, las dos se escabullían debajo de la mesa del comedor y la costurera desafiaba 
+                            a Gwen a duelos inventados: el choque de los cubiertos contra las tijeras resonaba en la cocina iluminada por velas.
+                        </p>
+                    </div>
+                </div> 
+              </div>
+            
+         
+            </div>
+        
+
+     </main>
+     <div class="example">
+    <div class="exmapleParagraf">
+       <h1> Info Bit</h1>
+       <li><a href="https://bit.institute/E?A=Curso-Desarrollo-Programacion-Videojuegos" target="_blanck">Bit </a> </li>
+    </div>
+    <div class="wiki">
+        <div class="wikiinfo">
+            <h1> Mayor Informacion</h1>
+            <li><a href="https://www.warframe.com/qtcc" target="_blanck"> Game</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/C_Sharp" target="_newtab"> C#</a></li>
+            <li> <a href="https://unity.com/es"> Unity</a></li>
+          
+           
+ 
+   
+            
+        </div>
+    </div>
+
+
+
+    </div>
+     <footer class="footer">
+        <div class="container">
+            <p> la hizo james </p>
+            
+          
+        </div>
+     </footer>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="script.js"></script>
+     <script >
+         const accordion = document.getElementsByClassName("contentbox");
+         for(i=0; i<accordion.length;i++){
+             accordion[i].addEventListener("click",function(){
+                 this.classList.toggle("activate")
+
+             })
+         }
+     </script>
+     
+
+</body>
+</html>
